@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favi.ico" type="image/x-icon"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mazzei</title>
+</head>
+<body>
+    <header>
+    <div id="flutua">
+        <a id="talk" onclick="erro()">Let's Talk :D</a>
+        <ul  class="menu" id="menu">
+            <li><h1>.Mazzei</h1></li>
+            <li><a>Home</a></li>
+            <li><a>Works</a></li>
+            <li><a>Sobre mim</a></li>
+            <li><a>Contato</a></li>  
+        </ul>
+    </div>
+    </header>
+    <section class="Ola">
+        <h1>Olá! Eu sou Mateus Mazzei,</h1><h1 id="texto2">Prazer em conhece-lo!</h1>
+        <h2 id="Git" onclick="erro()">Veja esse site no Github</h2>
+        <img src="my_img.png" alt="Minha foto" id="eu">
+    </section>
+    <section class='apres'>
+        <h1>Sobre mim</h1></br>
+        <p>Olá, tenho 20 anos, moro em Cotia e sou estudante na Fatec-SP. Sempre gostei de desenvolvimento e design.</br>
+        Hoje, dedico todo o meu foco a WEB. Mas, sempre dou aquela olhada no Photoshop e Illustrator ; )</br></br>
+        Tenho a  minha marca, além de  Mateus  Mazzei, também me apresento como  POLVO
+        </p>
+        <img src="POLVO.png" id="polvo">
+        <p><a id="cv" onclick="erro()">Download CV</a></p>
+    </section>
+    <section class="work">
+        <h1>WORKS</h1></br>
+        <div id="col1">
+            <h2>Web</h2>
+            <a onclick="erro()"><img src="mac.png"></a>
+        </div>
+        <div id="col2">
+            <h2>Design</h2>
+            <a onclick="erro()"><img src="photo.png"></a>
+        </div>
+        <div id="col3">
+            <h2>Code</h2>
+            <a onclick="erro()"><img src="code.png"></a>
+        </div>        
+    </section>
+   <section class="contato">
+    <h1>Contato</h1>
+    <form class="fale" method="post" action="post.php" name="formulario">
+        <input class="fale" type="text" name="nome" placeholder="NOME" pattern="[^0-9]+"/>
+        <input class="fale" type="email" name="email" placeholder="E-MAIL"/>
+        <input class="fale" type="tel" name="tel" placeholder="TELEFONE" maxlength="9" minlength="8" pattern="[^A-Za-z]+"/>
+        <textarea class="fale" type="mensagem" name="mensagem" placeholder="MENSAGEM ..."></textarea>
+        <div class="button">
+            <button type="submit" name="submit" onclick="return validar()" id="botao"class="not-active">Enviar</button>
+        </div>
+    </form>
+   </section>
+    <section class="rodape">
+        <div id="about">
+            <h2>Mateus Mazzei</h2>
+            <h3>Estudante de Análise e Desenvolvimento de Sistamas</h3>
+            <p>
+            Esse site serve para demonstrar um pouco do meu trabalho e quem eu sou</br>
+            Caso tenha gostado e queira saber mais, mande um e-mail!</br>Podemos tomar um café e conversar sobre o seu negócio!
+            </p>
+        </div>
+        <div id="dados">
+            <h2>Fale comigo</h2> 
+            <h3>Cotia, São Paulo</h3>    
+            <p>
+            E-mail: mateus.mazzei14@gmail.com</br>
+            Tel: (11) 99354-7746
+             </p>
+        </div>
+    </section>
+    <footer>
+        <div id="pp">
+        <p id="frase">Feito por uma pessoa  feliz :)</p>
+        <p id="dir">Todos os direitos reservados &#9400;</p>
+        </div>
+        <a><img src="git.png"></a>
+        <a><img src="face.png"></a>
+        <a><img src="link.png"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

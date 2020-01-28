@@ -1,0 +1,351 @@
+body{
+    margin: 0;
+    padding:0;
+}
+/*MENU ----------------------------*/
+
+#flutua{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+#talk{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 4%;
+    padding: 1%;
+    font-size: 150%;
+    border: solid white 2px;
+    width: 6.5%;
+    cursor: pointer;
+}
+#talk:hover{
+    background: white;
+    color: #4C2868;
+}
+
+#menu{
+    
+    background:#4C2868;
+    padding: 0;
+    margin: 0;
+    
+}
+.menu h1{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 300%;
+    padding: 0;
+    margin: 0%;
+    cursor: default;
+}
+
+.menu li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 1%;
+    font-size: 150%;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0.5% 3% 1% 1%;
+    cursor: pointer;
+}
+.menu li:hover{
+    color: rgb(105, 94, 170);
+}
+
+/*CORPO ----------------------------*/
+
+.ola{
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    padding-top: 8%;
+    width: 100%;
+    background-image: src="fundo.png";
+    background-color: #6061e8;
+    overflow: hidden;
+    background-image: url("fundo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;                        /*Foto de fundo*/
+    background-attachment: fixed;
+    
+}
+
+#eu{
+    float: right;
+    margin-top: -15%;
+    margin-right: 5%;
+    width: 20%;
+}
+
+.Ola  h1{
+    font-size: 360%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#texto2{
+    color: rgb(32, 2, 87);
+    margin-top: -2%;
+    font-size: 320%;
+}
+
+#Git{
+    color: white;
+    width: 14%;
+    padding: 0.5%;
+    font-size: 150%;
+    border: solid white 2px;
+    margin-left: 20%;
+    cursor: pointer;
+}
+#Git:hover{
+    background: white;
+    color: rgb(123, 64, 201);
+}
+
+/*Apresentação ----------------------------*/
+.apres{
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    width: 100%;
+    background-color: rgb(76, 29, 129);
+    overflow: hidden;
+}
+
+.apres h1{
+    font-size: 250%;
+    text-align: center;
+    padding: 1%;
+}
+
+.apres p{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 180%;
+    text-align: center;
+    padding: 2%;
+}
+
+#polvo{
+    width: 26%;
+    padding: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#cv{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    padding: 1%;
+    margin:3% 40% 1% 40%;
+    font-size: 100%;
+    border: solid white 2px;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+#cv:hover{
+    background: white;
+    color: #4C2868;
+}
+/*Work----------------------------*/
+.work{
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    width: 100%;
+    background-color: rgb(138, 73, 199);
+    overflow: hidden;
+}
+
+.work h1{
+    font-size: 256%;
+    text-align: center;
+    padding: 1%;
+}
+
+.work p{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 180%;
+    text-align: center;
+    padding: 2%;
+}
+
+.work h2{
+    font-size: 230%;
+    margin-bottom: 10%;
+    text-align: center;
+    padding: 1%;
+}
+
+#col1{
+    margin-left: 8%;
+}
+
+.work img{
+    width: 45%;
+    padding: 2% 8%;
+    border: solid white 8px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.work div{
+    padding: 0;
+    margin: 0;
+    width:33%;
+    text-align: center;
+    float: left;
+    padding-bottom: 4%;
+    margin-right: -8%;
+}
+
+/*Contato ----------------------------*/
+
+.contato{
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    width: 100%;
+    background-color: #4C2868;
+    overflow: hidden;
+}
+
+.contato h1{
+    font-size: 256%;
+    text-align: center;
+    padding: 1%;
+    color: #e6a2f3;
+}
+
+form {
+    border: 3px #e6a2f3 solid;
+    border-radius: 1%;
+    margin: auto auto 2% auto;
+    width: 40%;
+    padding: 2% 0%;
+    box-sizing: border-box;
+    background: #4C2868;
+}
+
+input, textarea{
+    display: block;
+    padding: 3%;
+    margin: auto auto 1% auto;
+    font-family: 'Lato', sans-serif ;                          /*edição dos campos*/
+    width: 95%;
+    background-color: #4C2868;
+    border: none;
+    border-bottom: 3px solid #e6a2f3;
+    font-size: 90%;
+    -webkit-appearance: none;
+    outline: none;
+    resize: none; 
+}
+
+input:hover, textarea:hover{
+    color: #000000;
+    background-color: #ffffff;                  /*edição dos campos*/
+    border-bottom: 3px solid #e6a2f3;
+}
+textarea {
+    vertical-align: top;
+    height: 10%;
+    resize: vertical;
+}
+input:focus, textarea:focus {
+    border-color:#e6a2f3;
+}
+
+::-webkit-input-placeholder {
+    color:#e6a2f3;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #e6a2f3;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color:#e6a2f3;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #e6a2f3;
+  }
+.button {
+    margin: 2% 10% 0% 10%;
+    text-align: center;
+}
+button {
+    background:#e6a2f3;
+    border: 2px #e6a2f3 solid;
+    font-family: 'Roboto Slab', sans-serif;
+    color:#4C2868;
+    padding: 2% 4%;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+/*Rodape ----------------------------*/
+
+.rodape{
+    background: rgb(43, 40, 40);
+    padding: 1%;
+    color: blanchedalmond;
+    font-family: 'PT Sans', sans-serif;
+    overflow: hidden;
+}
+
+.rodape h2{
+    font-size: 200%;
+    margin-left: 30%;
+}
+
+.rodape h3{
+    font-style: italic;
+    font-size: 130%;
+    margin-left: 30%;
+}
+.rodape p{
+    font-size: 120%;
+    margin-left: 30%;
+}
+#about{
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+
+#dados{
+    float: right;
+    width: 50%;
+    padding: 0;
+}
+
+/*Footer ----------------------------*/
+
+footer{
+    padding: 0.5%;;
+    background: rgb(29, 28, 28);
+    color: blanchedalmond;
+    font-family: 'PT Sans', sans-serif;
+    overflow: hidden;
+}
+
+footer p{
+    float: left;
+    font-size: 110%;
+}
+
+#frase{
+    margin-left: 10%;
+    font-style: italic;
+}
+
+#dir{
+    margin-left: 25%;
+}
+footer img{
+    width: 2%;
+    padding: 0.5%;
+    float: right;
+    margin-right: 0.5%;
+    cursor: pointer;
+}
